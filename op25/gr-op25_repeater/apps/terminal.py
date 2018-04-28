@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 
 # Copyright 2008-2011 Steve Glass
-# 
+#
 # Copyright 2011, 2012, 2013, 2014, 2015, 2016, 2017 Max H. Parke KA1RBI
-# 
+#
 # This file is part of OP25
-# 
+#
 # OP25 is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 3, or (at your option)
 # any later version.
-# 
+#
 # OP25 is distributed in the hope that it will be useful, but WITHOUT
 # ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 # or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public
 # License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with OP25; see the file COPYING. If not, write to the Free
 # Software Foundation, Inc., 51 Franklin Street, Boston, MA
@@ -66,7 +66,7 @@ class curses_terminal(threading.Thread):
     def setup_curses(self):
         self.stdscr = curses.initscr()
         self.maxy, self.maxx = self.stdscr.getmaxyx()
-        if (self.maxy < 6) or (self.maxx < 70):
+        if (self.maxy < 6) or (self.maxx < 60):
             sys.stderr.write("Terminal window too small! Minimum size [70 x 6], actual [%d x %d]\n" % (self.maxx, self.maxy))
             print "Terminal window too small! Minimum size [70 x 6], actual [%d x %d]\n" % (self.maxx, self.maxy)
             self.keep_running = False
@@ -92,9 +92,9 @@ class curses_terminal(threading.Thread):
 
     def resize_curses(self):
         self.maxy, self.maxx = self.stdscr.getmaxyx()
- 
+
         if (self.maxx < 70) or (self.maxy < 6):	# do not resize if window is now too small
-            return 
+            return
 
         self.stdscr.erase()
 
@@ -385,7 +385,7 @@ class terminal_client(object):
 
         self.terminal = curses_terminal(self.input_q, None, sock=self.sock)
 
-    def run(self): 
+    def run(self):
         while self.keep_running:
             try:
                 js, addr = self.sock.recvfrom(2048)
