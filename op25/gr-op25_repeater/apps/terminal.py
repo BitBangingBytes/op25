@@ -226,8 +226,8 @@ class curses_terminal(threading.Thread):
                 current_nac = times[ sorted(times.keys(), reverse=True)[0] ]
             self.current_nac = current_nac
             s = 'NAC 0x%x' % (int(current_nac))
-            s += ' WACN 0x%x' % (msg[current_nac]['wacn'])
-            s += ' SYSID 0x%x' % (msg[current_nac]['sysid'])
+            #s += ' WACN 0x%x' % (msg[current_nac]['wacn'])
+            #s += ' SYSID 0x%x' % (msg[current_nac]['sysid'])
             s += ' %f' % (msg[current_nac]['rxchan']/ 1000000.0)
             s += '/%f' % (msg[current_nac]['txchan']/ 1000000.0)
             s += ' tsbks %d' % (msg[current_nac]['tsbks'])
