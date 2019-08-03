@@ -1,0 +1,1 @@
+./rx.py --args 'rtl' -N 'LNA:47' -f 859.6125e6 -o -25e3 -q 1 -S 2000000 -T trunk2.tsv -U -n -w -2 -P constellation 2> stderr.2
