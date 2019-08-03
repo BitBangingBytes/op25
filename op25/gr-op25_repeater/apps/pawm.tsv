@@ -1,0 +1,144 @@
+2	Pla Mot Tech 	Motorola Radio Technicians  
+3	PlaPD Disp 1 	Dispatch 1  
+4	PlaPD NCIC 	NCIC  
+5	PlaPD Disp 2 	Dispatch 2  
+6	PlaPD A 	A-Sector Talkaround  
+7	PlaPD B 	B-Sector Talkaround  
+8	PlaPD C 	C-Sector Talkaround  
+9	PlaPD D 	D-Sector Talkaround  
+10	PlaPD Ops 1 	Ops 1  
+11	PlaPD Ops 2 	Ops 2  
+12	PlaPD Ops 3 	Ops 3  
+13	PlaPD Ops 4 	Ops 4  
+14	PlaPD Events 	Events  
+15	PlaPD Supv 	Supervisors  
+16	PlaPD Traf 	Traffic  
+19	PlaPD NPO 	Neighborhood Patrol Officers  
+20	PlaPD K9 	Canine  
+21	PlaPD Jail 	Jail/Booking  
+24	PlaPD Supply 	Supply  
+25	PlaPD Train 	Training  
+27	PlaPD CID1 	Criminal Inv Div 1  
+28	PlaPD CID2 	Criminal Inv Div 2  
+29	PlaPD CID3 	Criminal Inv Div 3  
+33	PlaPD Narc 1 	Narcotics 1  
+34	PlaPD Narc 2 	Narcotics 2  
+35	PlaPD Narc 3 	Narcotics 3  
+100	PlaFD01 Disp 	1 Locution Dispatch  
+101	PlaFD02 Stat 	2 Status, Updates  
+102	PlaFD03 EMS 	3 Medical Response  
+103	PlaFD04 	4
+104	PlaFD05 FG 	5 Fireground  
+105	PlaFD06 FG 	6 Fireground  
+106	PlaFD07 MCP 	7 EMS to Med Ctr Plano  
+107	PlaFD08 PPH 	8 EMS to Presby Plano  
+108	PlaFD09 	9 EMS  
+109	PlaFD10 Aux 	10 Auxiliary  
+110	PlaFD11 121 	11 Hwy 121 InterOp (Patch to Frisco 111)  
+111	PlaFD12 Rich 	12 Richardson InterOp  
+112	PlaFD13 Trn1 	13 Training 1  
+113	PlaFD14 Trn2 	14 Training 2  
+114	PlaFD15 	15
+115	PlaFD Events 	Events  
+116	PlaFD16 	16
+204	Pla EOC Hosp 	Hospitals  
+215	Pla Fac Disp 	Facilities Dispatch  
+216	Pla Fac Mech 	Facilities Mechanics  
+218	Pla Fac Tech 	Facilities Technicians  
+219	Pla Env Bulk 	Environmental Services Bulk Collection  
+223	Pla Waste 1 	Trash & Solid Waste 1  
+224	Pla Waste 2 	Trash & Solid Waste 2  
+225	Pla Waste 3 	Trash & Solid Waste 3  
+226	Pla Waste 4 	Trash & Solid Waste 4  
+227	Pla Waste 5 	Trash & Solid Waste 5  
+228	Pla Waste 6 	Trash & Solid Waste 6  
+234	Pla Ani Ctrl 	Animal Control  
+253	Pla Radio 	City Radio Techs  
+258	Pla Parks 1 	Parks & Rec 1  
+259	Pla Parks 2 	Parks & Rec 2  
+274	Pla Streets 	Streets   
+278	Pla UB Fld 	Water Utility Billing Field Ops  
+301	PISD Fac 1 	Facilities 1  
+302	PISD Fac 2 	Facilities 2  
+305	PISD Police 	Police / Security  
+306	PISD Bus A 	Buses A  
+307	PISD Bus B 	Buses B  
+308	PISD Bus C 	Buses C  
+495	AlnPD Traf 	Traffic  
+500	AlnPD EvtCtr 	Allen Event Center  
+502	AlnPD Disp 1 	Dispatch 1  
+503	AlnPD NCIC 	NCIC  
+504	AlnPD Ops 1 	Ops1  
+505	AlnPD Ops 2 	Ops2 (Animal Control)  
+506	AlnPD Ops 3 	Ops 3  
+507	AlnPD CID 1 	CID  
+511	AlnPD K9 	Canine  
+512	AlnPD Disp 2 	Dispatch 2  
+514	AlnPD Events 	Events 1  
+516	AlnPD Cars 	Car to Car  
+520	AlnPD CW Evt 	Citywide Events & Special Ops  
+601	AlnFD Ops 1 	Ops 1  
+602	AlnFD Ops 2 	Ops 2  
+603	AlnFD Ops 3 	Ops 3  
+604	AlnFD Ops 4 	Ops 4  
+605	AlnFD Ops 5 	Ops 5  
+606	AlnFD Ops 6 	Ops 6  
+607	AlnFD Ops 7 	Ops 7  
+608	AlnFD Ops 8 	Ops 8 Locution  
+609	AlnFD Train 	Training  
+610	AlnFD Prev 	Prevention  
+611	AlnFD Event 	Events  
+701	AlnPW Fac 	Building Facilities, Mechanics  
+702	AlnPW Meter 	Water Meter Readers  
+703	AlnPW Util 	Water Utilites Operations  
+704	AlnPW Street 	Streets  
+800	WyPD Disp 	Dispatch  
+801	Wyl AnCon1 	Animal Control 1  
+802	Wyl AnCon2 	Animal Control 2  
+804	WyPD Event 1 	Event 1  
+805	WyPD Event 2 	Event 2  
+806	WyPD NCIC 	NCIC  
+809	WylPD Enc 	Encrypted  
+810	WyPD Ops 1 	Ops 1  
+811	WyPD Ops 2 	Ops 2  
+825	WylFD Disp 	Fire Rescue Dispatch  
+826	WylFD Ops 1 	Ops 1  
+827	WylFD Ops 2 	Ops 2  
+828	WylFD Ops 3 	Ops 3  
+829	WylFD Ops 4 	Ops 4  
+831	WylFD Event 1 	Event 1  
+834	WylFD Train 	Training  
+835	WylFD Admin 	Administration  
+836	WylFD Marsh 	FIre Marshall  
+837	WylFD EMS 	EMS  
+838	WylFD Ops 5 	Ops 5  
+900	MurPD Disp 	Police Dispatch  
+901	MurPD NCIC 	Police NCIC  
+903	MurPD Ops 1 	Police Ops 1  
+904	MurPD Ops 2 	Police Ops 2  
+925	MurFD Disp 	Fire Dispatch  
+926	MurFD Ops 1 	Fire Ops 1  
+927	MurFD Ops 2 	Fire Ops 2  
+928	MurFD Ops 3 	Fire Ops 3  
+929	MurFD Cmd 	Fire Command  
+950	Mur Water 	Water Utilities  
+952	MurEvents 	Citywide Events  
+953	Mur Streets 	Streets  
+1001	Pla WrnSiren 	Outdoor Warning Sirens  
+1020	LucFD Disp 	1 Dispatch (by Plano PSC)  
+1021	LucFD 2 	2
+1022	LucFD 3 	3
+1070	ParFD Disp 	1 Dispatch (by Plano PSC)  
+1071	ParFD 2 	2
+1080	Frvw FD Disp 	Dispatch  
+1081	Frvw FD Ops1 	Ops 1  
+1082	Frvw FD Ops2 	Ops 2  
+1125	TCPD Disp 	Police Dispatch  
+1126	TCPD Ops1 	Police Ops 1  
+1127	TCPD Ops2 	Police Ops 2  
+1128	TC AnCon 	Animal Control  
+1135	TC FD 1 	Fire Dispatch  
+1136	TC FD 2 	Fire 2  
+1137	TC FD 3 	Fire 3  
+1152	CCCD PD Disp 	Campus Police Dispatch (CPC, CHEC, SCC)  
+2043	Pla Net Tech 	Network Technicians  

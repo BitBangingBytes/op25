@@ -1,0 +1,5 @@
+Sysname	Control Channel List	Offset	NAC	Modulation	TGID Tags File	Whitelist	Blacklist	Center Frequency
+Mckinney	859.3625	0	0x380	C4FM	mckinney.tsv			
+Frisco	859.6125	0	0x360	C4FM	frisco.tsv			
+PAWM	852.675,852.9625,853.275,853.300	0	0x3B1	C4FM	pawm.tsv			
+Prosper	854.1875	0	0x7e7	C4FM	prosper.tsv			
